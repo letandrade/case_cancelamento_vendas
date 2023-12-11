@@ -83,11 +83,6 @@ entradas = {"DiaSemana": opcao_1, "FaixaHora": opcao_2, "Mes": opcao_3, "Cliente
             "QtdProduto10": opcao_18,"QtdProduto11": opcao_19,"QtdProduto12": opcao_20,"QtdProduto13": opcao_21}
 
 
-#if st.button('Gerar previsão'):
-#    res = requests.post(url = 'http://127.0.0.1:8000/fazer_predicao', data = json.dumps(entradas))
-#    st.subheader(f"Resposta da API foi = {res.text}")
-    
-    
 if st.button('Gerar previsão'):
     res = requests.post(url='http://127.0.0.1:8000/fazer_predicao', data=json.dumps(entradas))
     
