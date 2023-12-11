@@ -32,7 +32,7 @@ class User_input(BaseModel):
 app = FastAPI()
 
 
-caminho_do_modelo = r'C:\Users\leticia\Desktop\Portfólio\Case_Cancelamentos_Vendas\modelo.pkl'
+caminho_do_modelo = 'https://raw.githubusercontent.com/letandrade/case_cancelamento_vendas/main/modelo.pkl'
 modelo = carregar_modelo(caminho_do_modelo)
 
 
