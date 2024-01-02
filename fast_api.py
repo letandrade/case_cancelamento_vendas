@@ -2,6 +2,7 @@
 #bibliotecas
 from fastapi import FastAPI
 from pydantic import BaseModel
+import pickle
 from modelo import carregar_modelo, fazer_predicao
 
 
@@ -31,8 +32,8 @@ class User_input(BaseModel):
 
 app = FastAPI()
 
-
-caminho_do_modelo = 'https://raw.githubusercontent.com/letandrade/case_cancelamento_vendas/main/modelo.pkl'
+#'https://raw.githubusercontent.com/letandrade/case_cancelamento_vendas/main/modelo.pkl'
+caminho_do_modelo = 'modelo.pkl'
 modelo = carregar_modelo(caminho_do_modelo)
 
 
