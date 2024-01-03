@@ -37,13 +37,13 @@ modelo = carregar_modelo(caminho_do_modelo)
 
 
 @app.post("/fazer_predicao")
-def operate(input:User_input):
+def operate(input_data:User_input):
     resultado = fazer_predicao(modelo,[input.DiaSemana, input.FaixaHora, input.Mes, input.ClienteID, input.QuantidadeItens,
                                        input.Vendas, input. MediaPreco, input.QtdItensDistintos, input.QtdProduto1,
                                        input.QtdProduto2, input.QtdProduto3, input.QtdProduto4, input.QtdProduto5, input.QtdProduto6,
                                        input.QtdProduto7, input.QtdProduto8, input.QtdProduto9, input.QtdProduto10, input.QtdProduto11,
                                        input.QtdProduto12, input.QtdProduto13])
-    return {"resultado": resultado}
+    return resultado
 
 
 
