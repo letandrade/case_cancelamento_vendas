@@ -32,7 +32,6 @@ class User_input(BaseModel):
 
 app = FastAPI()
 
-#'https://raw.githubusercontent.com/letandrade/case_cancelamento_vendas/main/modelo.pkl'
 caminho_do_modelo = 'modelo.pkl'
 modelo = carregar_modelo(caminho_do_modelo)
 
