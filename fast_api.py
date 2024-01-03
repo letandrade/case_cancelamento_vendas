@@ -43,7 +43,7 @@ def operate(input:User_input):
                                        input.QtdProduto2, input.QtdProduto3, input.QtdProduto4, input.QtdProduto5, input.QtdProduto6,
                                        input.QtdProduto7, input.QtdProduto8, input.QtdProduto9, input.QtdProduto10, input.QtdProduto11,
                                        input.QtdProduto12, input.QtdProduto13])
-    return resultado
+    return {"resultado": resultado}
 
 
 
