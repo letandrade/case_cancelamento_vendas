@@ -36,7 +36,7 @@ caminho_do_modelo = 'modelo.pkl'
 modelo = carregar_modelo(caminho_do_modelo)
 
 
-@app.post("/") #/fazer_predicao
+@app.post("/fazer_predicao")
 def operate(input:User_input):
     resultado = fazer_predicao(modelo,[input.DiaSemana, input.FaixaHora, input.Mes, input.ClienteID, input.QuantidadeItens,
                                        input.Vendas, input. MediaPreco, input.QtdItensDistintos, input.QtdProduto1,
