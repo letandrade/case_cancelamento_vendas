@@ -30,6 +30,10 @@ class User_input(BaseModel):
 
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {"message": "Bem-vindo à API de predição!"}
+
 caminho_do_modelo = 'modelo.pkl'
 modelo = carregar_modelo(caminho_do_modelo)
 
