@@ -84,7 +84,7 @@ entradas = {"DiaSemana": opcao_1, "FaixaHora": opcao_2, "Mes": opcao_3, "Cliente
 
 
 if st.button('Gerar previsão'):
-    res = requests.post(url= API_TOKEN, data=json.dumps(entradas))
+    res = requests.post(url= url='https://case-cancelamento-vendas.onrender.com/fazer_predicao', data=json.dumps(entradas))
     
     # Verificar se a solicitação foi bem-sucedida (código 200)
     if res.status_code == 200:
