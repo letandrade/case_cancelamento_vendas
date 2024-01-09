@@ -5,7 +5,6 @@ from pydantic import BaseModel
 import pickle
 from modelo import carregar_modelo, fazer_predicao
 
-
 class User_input(BaseModel):
     DiaSemana: str
     FaixaHora: str
@@ -29,12 +28,10 @@ class User_input(BaseModel):
     QtdProduto12: int
     QtdProduto13: int
 
-
 app = FastAPI()
 
 caminho_do_modelo = 'modelo.pkl'
 modelo = carregar_modelo(caminho_do_modelo)
-
 
 @app.post("/fazer_predicao")
 def operate(input_data:User_input):
