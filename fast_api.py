@@ -44,7 +44,6 @@ def operate(input_data:User_input):
                                     input.QtdProduto2, input.QtdProduto3, input.QtdProduto4, input.QtdProduto5, input.QtdProduto6,
                                     input.QtdProduto7, input.QtdProduto8, input.QtdProduto9, input.QtdProduto10, input.QtdProduto11,
                                     input.QtdProduto12, input.QtdProduto13])
-Certifique-se de corrigir todas as instâncias onde você está acessando os atributos do 
     return resultado
 
 
