@@ -1,6 +1,6 @@
 # Modelo de Classificação de Faturas Canceladas (Python + FAST API + Streamlit + Render)
 
-1.0 Business background 
+### 1.0 Business background 
 
 O varejista on-line considerado nesse case está sediado no Reino Unido e foi criado em 1981 vendendo principalmente presentes exclusivos para todas as ocasiões. Por questões de segurança, a identidade da empresa não foi revelada durante o compartilhamento de seus dados transacionais no repositório da UCI. 
 
@@ -11,7 +11,7 @@ O conjunto de dados de transações do cliente mantido pelo comerciante tem 9 va
 Tabela de variáveis
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/b9a636ac-8ac8-4fa2-ba88-8cbf6017681f)
 
-1.1 O Problema de negócio 
+### 1.1 O Problema de negócio 
 
 Ao analisar os dados transacionais fornecidos pela empresa, identifiquei que existem registros das transações canceladas, sendo assim, decidi fazer um estudo detalhado das faturas canceladas. 
 
@@ -47,13 +47,13 @@ Quantidade média de itens distintos cancelados para um cliente: 5.84
 
 Além disso, foi verificado que a sexta-feira e o horário da manhã são os mais propensos a cancelamentos de faturas. 
 
-1.2 Objetivo do projeto
+### 1.2 Objetivo do projeto
 
 Com o objetivo de reduzir os cancelamentos ocorridos no Reino Unido, desenvolvi um modelo de classificação que identifica se uma fatura é propensa ao cancelamento ou não. 
 
 Esse modelo representa a oportunidade de segmentar as faturas em possíveis de ser canceladas ou não, dessa forma, os calaboradores poderiam focar no acompanhamento das faturas que possuem perfil de cancelamento após a efetuação da compra. Uma boa estratégia seria fazer o acompanhamento do processo de compra junto ao clientes que possuem faturas com potencial de ser canceladas. 
 
-2.0 Como usar o projeto 
+### 2.0 Como usar o projeto 
 
 Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
 
@@ -61,8 +61,8 @@ Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
 <p>➝ Login no streamlit. Disponível em: <https://streamlit.io/>
 <p>➝ Login no render. Disponível em: <https://render.com>
   
-3.0 Desenvolvimento e resultados 
+### 3.0 Desenvolvimento e resultados 
 
-4.0 Deploy do modelo
+### 4.0 Deploy do modelo
 
-5.0 Conclusão
+### 5.0 Conclusão
