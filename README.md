@@ -1,5 +1,5 @@
 
-1.0 Business backgroud 
+1.0 Business background 
 
 O varejista on-line considerado nesse case está sediado no Reino Unido e foi criado em 1981 vendendo principalmente presentes exclusivos para todas as ocasiões. Por questões de segurança, a identidade da empresa não foi revelada durante o compartilhamento de seus dados transacionais no repositório da UCI. 
 
