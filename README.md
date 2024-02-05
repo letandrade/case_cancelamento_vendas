@@ -31,19 +31,19 @@ Aproximadante 74,89% da quantidade de produtos cancelados pertencem ao Reino Uni
 Sendo assim, resolvi seguir a análise de cancelamentos com foco apenas no Reino Unido e obtive os resultados abaixo:
 
 Total de transações canceladas: 6.730
-Proporção de transações canceladas: 16.75%
-Qtd de itens cancelados: 360.599
-Proporção de itens cancelados: 4.32%
-Valor de venda cancelado: £ 669.007,71
-Proporção do valor de venda de cancelado: 4.79%
-Ticket médio em valor por transação cancelada: £ 99.41
-Ticket médio em qtd por transação cancelada: 53.58083209509658
-Taket time em valor por transação cancelada: 0.010059674798067724
-Taket time em qtd por transação cancelada: 0.018663390636135986
-Valor médio de cancelamentos para um cliente por transação: £ 297.87
-Quantidade média de cancelamentos para um cliente: 2.99
-Quantidade média de itens cancelados para um cliente: 160.55
-Quantidade média de itens distintos cancelados para um cliente: 5.84
+<p>Proporção de transações canceladas: 16.75%
+<p>Qtd de itens cancelados: 360.599
+<p>Proporção de itens cancelados: 4.32%
+<p>Valor de venda cancelado: £ 669.007,71
+<p>Proporção do valor de venda de cancelado: 4.79%
+<p>Ticket médio em valor por transação cancelada: £ 99.41
+<p>Ticket médio em qtd por transação cancelada: 53.58083209509658
+<p>Taket time em valor por transação cancelada: 0.010059674798067724
+<p>Taket time em qtd por transação cancelada: 0.018663390636135986
+<p>Valor médio de cancelamentos para um cliente por transação: £ 297.87
+<p>Quantidade média de cancelamentos para um cliente: 2.99
+<p>Quantidade média de itens cancelados para um cliente: 160.55
+<p>Quantidade média de itens distintos cancelados para um cliente: 5.84
 
 Além disso, foi verificado que a sexta-feira e o horário da manhã são os mais propensos a cancelamentos de faturas. 
 
