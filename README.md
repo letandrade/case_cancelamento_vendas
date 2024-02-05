@@ -1,4 +1,5 @@
-# Modelo de Classificação de Faturas Canceladas (Python + FAST API + Streamlit + Render)
+# Modelo de Classificação de Faturas Canceladas 
+# (Python + FAST API + Streamlit + Render)
 
 1.0 Business background 
 
