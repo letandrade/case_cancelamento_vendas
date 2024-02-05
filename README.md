@@ -58,8 +58,8 @@ Esse modelo representa a oportunidade de segmentar as faturas em possíveis de s
 Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
 
 ➝ Linguagem Python - Jupyter notebook
-<p>➝ Login no streamlit. Disponível em: <https://streamlit.io/>
-<p>➝ Login no render. Disponível em: <https://render.com>
+<p>➝ Login no streamlit. Disponível em:https://streamlit.io/
+<p>➝ Login no render. Disponível em:https://render.com
   
 ### 3.0 Desenvolvimento e resultados 
 
