@@ -10,7 +10,7 @@ O conjunto de dados de transações do cliente mantido pelo comerciante tem 9 va
 Tabela de variáveis
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/b9a636ac-8ac8-4fa2-ba88-8cbf6017681f)
 
-1.1 Problema de negócio 
+1.1 O Problema de negócio 
 
 Ao analisar os dados transacionais fornecidos pela empresa, identifiquei que existem registros das transações canceladas, sendo assim, decidi fazer um estudo detalhado das faturas canceladas. 
 
@@ -24,6 +24,5 @@ Apesar das métricas de cancelamento não serem tão expressivas, quando se olha
 Aproximadante 88,30% do valor de venda cancelado pertence ao Reino Unido. 
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/e5189949-4c81-40c6-b88c-e5e3ed581e3a)
-
 
 Aproximadante 74,89% da quantidade de produtos cancelados pertencem ao Reino Unido. 
