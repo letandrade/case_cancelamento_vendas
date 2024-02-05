@@ -63,6 +63,6 @@ Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
   
 3.0 Desenvolvimento e resultados 
 
-4.0 Deploy do modelo 
+4.0 Deploy do modelo
 
 5.0 Conclusão
