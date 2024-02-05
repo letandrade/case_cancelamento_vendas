@@ -47,8 +47,13 @@ Quantidade média de itens distintos cancelados para um cliente: 5.84
 
 Além disso, foi verificado que a sexta-feira e o horário da manhã são os mais propensos a cancelamentos de faturas. 
 
+1.2 Objetivo do projeto
+
 Com o objetivo de reduzir os cancelamentos ocorridos no Reino Unido, desenvolvi um modelo de classificação que identifica se uma fatura é propensa ao cancelamento ou não. 
 
 Esse modelo representa a oportunidade de segmentar as faturas em possíveis de ser canceladas ou não, dessa forma, os calaboradores poderiam focar no acompanhamento das faturas que possuem perfil de cancelamento após a efetuação da compra. Uma boa estratégia seria fazer o acompanhamento do processo de compra junto ao clientes que possuem faturas com potencial de ser canceladas. 
 
+2.0 Como usar o projeto 
 
+➝ Linguagem Python - Jupyter notebook
+<p>➝ Base em csv
