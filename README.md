@@ -26,3 +26,28 @@ Aproximadante 88,30% do valor de venda cancelado pertence ao Reino Unido.
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/e5189949-4c81-40c6-b88c-e5e3ed581e3a)
 
 Aproximadante 74,89% da quantidade de produtos cancelados pertencem ao Reino Unido. 
+
+Sendo assim, resolvi seguir a análise de cancelamentos com foco apenas no Reino Unido e obtive os resultados abaixo:
+
+Total de transações canceladas: 6.730
+Proporção de transações canceladas: 16.75%
+Qtd de itens cancelados: 360.599
+Proporção de itens cancelados: 4.32%
+Valor de venda cancelado: £ 669.007,71
+Proporção do valor de venda de cancelado: 4.79%
+Ticket médio em valor por transação cancelada: £ 99.41
+Ticket médio em qtd por transação cancelada: 53.58083209509658
+Taket time em valor por transação cancelada: 0.010059674798067724
+Taket time em qtd por transação cancelada: 0.018663390636135986
+Valor médio de cancelamentos para um cliente por transação: £ 297.87
+Quantidade média de cancelamentos para um cliente: 2.99
+Quantidade média de itens cancelados para um cliente: 160.55
+Quantidade média de itens distintos cancelados para um cliente: 5.84
+
+Além disso, foi verificado que a sexta-feira e o horário da manhã são os mais propensos a cancelamentos de faturas. 
+
+Com o objetivo de reduzir os cancelamentos ocorridos no Reino Unido, desenvolvi um modelo de classificação que identifica se uma fatura é propensa ao cancelamento ou não. 
+
+Esse modelo representa a oportunidade de segmentar as faturas em possíveis de ser canceladas ou não, dessa forma, os calaboradores poderiam focar no acompanhamento das faturas que possuem perfil de cancelamento após a efetuação da compra. Uma boa estratégia seria fazer o acompanhamento do processo de compra junto ao clientes que possuem faturas com potencial de ser canceladas. 
+
+
