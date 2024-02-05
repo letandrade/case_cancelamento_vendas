@@ -55,5 +55,14 @@ Esse modelo representa a oportunidade de segmentar as faturas em possíveis de s
 
 2.0 Como usar o projeto 
 
+Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
+
 ➝ Linguagem Python - Jupyter notebook
-<p>➝ Base em csv
+<p>➝ Login no streamlit. Disponível em: <https://streamlit.io/>
+<p>➝ Login no render. Disponível em: <https://render.com>
+  
+3.0 Desenvolvimento e resultados 
+
+4.0 Deploy do modelo 
+
+5.0 Conclusão
