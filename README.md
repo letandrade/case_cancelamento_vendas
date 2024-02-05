@@ -1,4 +1,3 @@
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/17d9ce6b-e6d9-428e-aa81-1324bd47f985)# case_cancelamento_vendas
 
 1.0 Business backgroud 
 
