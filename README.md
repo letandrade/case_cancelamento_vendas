@@ -70,6 +70,10 @@ Para treinar o modelo, o conjunto de dados inicial passou por um pré-processame
 Para treinar o modelo foi feita uma separação do conjunto de dados selecionado utilizando o pacote train_test_split. A segmentação é realizada de forma aleatória, isso significa que os dados são divididos em conjuntos de treinamento e teste de maneira aleatória, garantindo que não haja viés na seleção dos exemplos para cada conjunto.
 Além disso, foi considerada a proporção de 70%/30% para divisão, respectivamente, em conjuntos de treinamento e teste.
 
+Para garantir .. foi utilizada a validação cruzada através do objeto StratifiedKFold.
+
+O treinamento foi realizado com a melhor combinação dos hiperparâmetros x,x,x. O método Grid Search foi usado para seleção dos hiperparâmetros, essa técnica...
+
 ### 4.0 Deploy do modelo
 
 ### 5.0 Conclusão
