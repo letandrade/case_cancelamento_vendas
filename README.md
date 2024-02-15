@@ -51,7 +51,7 @@ Além disso, foi verificado que a sexta-feira e o horário da manhã são os mai
 
 Com o objetivo de reduzir os cancelamentos ocorridos no Reino Unido, desenvolvi um modelo de classificação que identifica se uma fatura é propensa ao cancelamento ou não. 
 
-Esse modelo representa a oportunidade de segmentar as faturas em possíveis de ser canceladas ou não, dessa forma, os calaboradores poderiam focar no acompanhamento das faturas que possuem perfil de cancelamento após a efetuação da compra. Uma boa estratégia seria fazer o acompanhamento do processo de compra junto ao clientes que possuem faturas com potencial de ser canceladas. 
+Esse modelo representa a oportunidade de segmentar as faturas em possíveis de ser canceladas ou não, dessa forma, os colaboradores poderiam focar no acompanhamento das faturas que possuem perfil de cancelamento após a efetuação da compra. Uma boa estratégia seria fazer o acompanhamento do processo de compra junto aos clientes que possuem faturas com potencial de ser canceladas. 
 
 ### 2.0 Como usar o projeto 
 
