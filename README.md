@@ -24,7 +24,7 @@ Apesar das métricas de cancelamento não serem tão expressivas, quando se olha
 
 Aproximadante 88,30% do valor de venda cancelado pertence ao Reino Unido. 
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/262e3500-a6c6-4be3-bf48-505bb8166ce6)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/b0728929-bcd6-4e40-86f7-f523336f8738)
 
 Aproximadante 74,89% da quantidade de produtos cancelados pertencem ao Reino Unido. 
 
@@ -67,7 +67,7 @@ Para construção do modelo de classificação foi usado o algoritmo CatBoostCla
 
 Para treinar o modelo, o conjunto de dados inicial passou por um pré-processamento com o intuito de obter as variáveis relevantes para tarefa de classificação. Dessa forma, foi criada uma base agrupada a nível de fatura com as varáveis abaixo:
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/35ac11fd-f59d-444f-99bf-8d3c257fd3b6)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/262e3500-a6c6-4be3-bf48-505bb8166ce6)
 
 Para treinar o modelo foi feita uma separação do conjunto de dados selecionado utilizando o pacote train_test_split. A segmentação é realizada de forma aleatória, isso significa que os dados são divididos em conjuntos de treinamento e teste de maneira aleatória, garantindo que não haja viés na seleção dos exemplos para cada conjunto.
 Além disso, foi considerada a proporção de 70%/30% para divisão, respectivamente, em conjuntos de treinamento e teste.
