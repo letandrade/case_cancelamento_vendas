@@ -64,10 +64,13 @@ Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
 
 Para construção do modelo de classificação foi usado o algoritmo CatBoostClassifier que é um algoritmo de aprendizagem supervisionada projetado especificamente para lidar com conjuntos de dados que possuem características categóricas (ou seja, variáveis qualitativas) e é particularmente eficaz em problemas de classificação. O "Cat" em CatBoost refere-se a "categorical" (categórico), e o algoritmo é otimizado para lidar com essas variáveis de forma eficiente. Além disso, o algoritmo usa o processo de boosting que geralmente envolve a construção sequencial de vários classificadores fracos, onde cada novo classificador é treinado para corrigir os erros cometidos pelos classificadores anteriores. Em cada iteração, os exemplos de treinamento que foram classificados incorretamente pelos classificadores anteriores recebem um peso maior, para que o próximo classificador se concentre mais nesses exemplos difíceis. Esse processo é repetido até que um critério de parada seja atendido, como um número máximo de iterações ou quando não há mais ganho significativo.
 
-Para treinar o modelo, o conjunto de dados inicial passou por um pré-processamento com o intuito de obter as variáveis relevantes para tarefa de classificação. Dessa forma, foi criada uma base agrupada a nível de fatura com as varáveis abaixo:
+Para treinar o modelo, o conjunto de dados inicial passou por um pré-processamento com o intuito de obter as variáveis relevantes para tarefa de classificação. Dessa forma, foi criada uma base agrupada a nível de fatura com os cancelamentos do Reino Unido, com as varáveis a seguir:
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/56fbbce7-ebc9-4b74-93e6-ae6899bbcabb)
 
+Para compor o conjunto de dados foram selecionados 13 códigos de estoque referentes aos itens que representam 50% do valor acumulado de vendas canceladas. A presença desses itens na fatura pode ser um indicativo de cancelamento, sendo assim, a base de dados trouxe a quantidade desses itens na fatura. 
+
+Além disso, é importante mencionar que a base não considera os códigos de estoque 'M' e 'AMAZONFEE' pois tratam-se, respectivamente, de cancelamentos realizados de forma manual pela empresa e cancelamentos realizados pela plataforma de venda da Amazon. O objetivo é entender apenas o comportamento dos cancelamentos ocorridos no próprio site da empresa.
 
 Para treinar o modelo foi feita uma separação do conjunto de dados selecionado utilizando o pacote train_test_split. A segmentação é realizada de forma aleatória, isso significa que os dados são divididos em conjuntos de treinamento e teste de maneira aleatória, garantindo que não haja viés na seleção dos exemplos para cada conjunto.
 Além disso, foi considerada a proporção de 70%/30% para divisão, respectivamente, em conjuntos de treinamento e teste.
