@@ -66,7 +66,8 @@ Para construção do modelo de classificação foi usado o algoritmo CatBoostCla
 
 Para treinar o modelo, o conjunto de dados inicial passou por um pré-processamento com o intuito de obter as variáveis relevantes para tarefa de classificação. Dessa forma, foi criada uma base agrupada a nível de fatura com as varáveis abaixo:
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/262e3500-a6c6-4be3-bf48-505bb8166ce6)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/56fbbce7-ebc9-4b74-93e6-ae6899bbcabb)
+
 
 Para treinar o modelo foi feita uma separação do conjunto de dados selecionado utilizando o pacote train_test_split. A segmentação é realizada de forma aleatória, isso significa que os dados são divididos em conjuntos de treinamento e teste de maneira aleatória, garantindo que não haja viés na seleção dos exemplos para cada conjunto.
 Além disso, foi considerada a proporção de 70%/30% para divisão, respectivamente, em conjuntos de treinamento e teste.
