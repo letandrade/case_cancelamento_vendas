@@ -6,7 +6,7 @@ import requests
 
 
 #Titulo
-st.title('Modelo de Previsão de Cancelamento de Fatura')
+st.title('Modelo de propensão a faturas canceladas')
 
 #Subtítulo
 st.write('Preencha as informações da sua fatura.\n\n')
