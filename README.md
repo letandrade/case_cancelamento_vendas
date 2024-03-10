@@ -81,13 +81,13 @@ Para otimizar os hiperparâmetros do modelo (iterations, learning_rate e depth) 
 
 Para avaliar a performance do modelo, utilizei as funções classification_report, confusion_matrix e roc_auc_score importadas da biblioteca sklearn.metrics. O foco foi avaliar as principais métricas de classificação: a accuracy, precision, recall e F1 - score. 
 
-Obtive os seguintes resultados do modelo:
+Considerando a classe positiva (Sim) como a ocorrência de faturas canceladas e a classe negativa (Não) como faturas não canceladas, obtive os seguintes resultados do modelo:
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/17d3d8f9-7d44-439c-a6b6-450a65fb687d)
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/7307a07b-0d19-4ef3-a8b3-507d3ef66885)
 
-Considerando a classe positiva como a ocorrência de faturas canceladas e a classe negativa como faturas não canceladas, esse pressuposto foi estabelecido.
+
 
 Para avaliar o modelo, considerei como métrica principal o recall pois ela busca responder a seguinte pergunta: de todos os exemplos que são positivos, quantos foram classificados corretamente como positivos? Sendo assim, observei que o modelo obteve uma boa performance com o resultado de 84%, isso quer dizer que a cada 100 faturas que são de fato positivas, é esperado que apenas 84 sejam corretamente identificadas como canceladas.
 
