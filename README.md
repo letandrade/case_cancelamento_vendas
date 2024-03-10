@@ -111,10 +111,10 @@ Todo o processo de deploy foi implementado em x etapas:
 
 2) A segunda etapa foi a criação do módulo modelo.py onde o objetivo era estruturar 2 funções (carregar_modelo e fazer_predicao): a primeira função para importar o modelo no formato pickle e a segunda função para prever as classes usando o modelo importado.
 
-3) A terceira etapa consistiu na criação de uma API com a biblioteca fast API. O módulo fast_api.py consiste 
+3) A terceira etapa consistiu na criação de uma API com a biblioteca fast API. Consulte o código e a descrição detalhada no módulo fast_api.py.
 
-4) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servido Render.
+5) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servidor Render. O processo de hospedagem da API no render seguiu o passo a passo disponibilizado no site <https://docs.render.com/deploy-fastapihttps://docs.render.com/deploy-fastapi>. O objetivo foi tornar a API pública para que ela pudesse ser chamada no streamlit.
 
-5) 
+6) 
 
 ### 5.0 Conclusão
