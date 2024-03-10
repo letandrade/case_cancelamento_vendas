@@ -93,7 +93,7 @@ if st.button('Gerar previsão'):
     else:
         st.subheader(f"Falha na solicitação. Código de status = {res.status_code}")    
     
-#Descrição detalhada
+# Descrição detalhada do módulo stream_lit.py
 
 # Este código Python cria uma interface web usando o Streamlit para que os usuários possam preencher informações relacionadas a uma fatura. Essas informações são enviadas para uma API hospedada no serviço Render, que utiliza um modelo
 # para fazer previsões sobre se a fatura será cancelada ou não.
