@@ -93,5 +93,37 @@ if st.button('Gerar previsão'):
     else:
         st.subheader(f"Falha na solicitação. Código de status = {res.status_code}")    
     
+#Descrição detalhada
 
+# Este código Python cria uma interface web usando o Streamlit para que os usuários possam preencher informações relacionadas a uma fatura. Essas informações são enviadas para uma API hospedada no serviço Render, que utiliza um modelo
+# para fazer previsões sobre se a fatura será cancelada ou não.
 
+# Aqui está uma explicação detalhada do que cada parte do código faz:
+
+# 1. **Importação de Bibliotecas**:
+#   - Importa as bibliotecas necessárias para o funcionamento do programa, incluindo Streamlit, JSON e Requests.
+
+# 2. **Interface Web**:
+#   - Cria uma interface web usando o Streamlit.
+#   - Define o título da página como "Modelo de propensão a faturas canceladas".
+#   - Adiciona um subtítulo explicativo.
+
+# 3. **Coleta de Entradas dos Usuários**:
+#   - Usa widgets do Streamlit para coletar informações do usuário, como dia da semana, faixa horária, mês, ClienteID, quantidade de itens, vendas, média de preço, quantidade de itens distintos e quantidade de cada produto específico.
+
+# 4. **Preparação dos Dados**:
+#   - Cria um dicionário chamado `entradas` contendo todas as informações coletadas do usuário.
+
+# 5. **Envio de Solicitação para a API**:
+#   - Quando o usuário clica no botão "Gerar previsão", uma solicitação POST é enviada para a API hospedada no Render.
+#   - Os dados coletados são enviados como um objeto JSON na solicitação.
+
+# 6. **Processamento da Resposta da API**:
+#   - Se a solicitação for bem-sucedida (código de status 200), a resposta da API é recebida e processada.
+#   - A resposta é exibida na interface web como uma subseção com o título "Resposta da API".
+
+# 7. **Tratamento de Falhas na Solicitação**:
+#    - Se a solicitação falhar (por exemplo, se a API estiver fora do ar), uma mensagem indicando o código de status da falha é exibida na interface web.
+
+# Em resumo, este código cria uma interface web interativa para que os usuários possam fornecer informações relacionadas a uma fatura. Essas informações são então enviadas para uma API que usa um modelo para fazer previsões sobre se a fatura
+# será cancelada ou não, e a resposta da API é exibida de volta ao usuário na interface web.
