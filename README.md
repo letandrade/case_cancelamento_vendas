@@ -113,7 +113,7 @@ Todo o processo de deploy foi implementado em x etapas:
 
 3) A terceira etapa consistiu na criação de uma API com a biblioteca fast API. Consulte o código e a descrição detalhada no módulo fast_api.py.
 
-5) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servidor Render. O processo de hospedagem da API no render seguiu o passo a passo disponibilizado no site <https://docs.render.com/deploy-fastapihttps://docs.render.com/deploy-fastapi>. O objetivo foi tornar a API pública para que ela pudesse ser chamada no streamlit.
+5) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servidor Render. O processo de hospedagem da API no render seguiu o passo a passo disponibilizado no site <https://docs.render.com/deploy-fastapi>. O objetivo foi tornar a API pública para que ela pudesse ser chamada no streamlit.
 
 6) 
 
