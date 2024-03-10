@@ -60,6 +60,8 @@ Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
 <p>➝ Login no streamlit. Disponível em: <https://streamlit.io>
 <p>➝ Login no render. Disponível em: <https://render.com>
 <p>➝ Todos os 10 arquivos disponíveis neste repoditório.
+➝ Login no streamlit. Disponível em: [https://streamlit.io](https://streamlit.io)
+➝ Login no render. Disponível em: [https://render.com](https://render.com)
   
 ### 3.0 Desenvolvimento e resultados 
 
