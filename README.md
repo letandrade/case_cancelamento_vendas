@@ -83,15 +83,19 @@ Para avaliar a performance do modelo, utilizei as funções classification_repor
 
 Considerando a classe positiva (Sim) como a ocorrência de faturas canceladas e a classe negativa (Não) como faturas não canceladas, obtive os seguintes resultados do modelo:
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/17d3d8f9-7d44-439c-a6b6-450a65fb687d)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/f8ba6ad7-2231-4bda-a66b-e9ccd0e0cb6f)
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/7307a07b-0d19-4ef3-a8b3-507d3ef66885)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/eebce1eb-73ac-4ee3-a7d5-8deffc5dc4aa)
 
-
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/05669893-5d4b-4a51-905f-f4d7cc86b888)
 
 Para avaliar o modelo, considerei como métrica principal o recall pois ela busca responder a seguinte pergunta: de todos os exemplos que são positivos, quantos foram classificados corretamente como positivos? Sendo assim, observei que o modelo obteve uma boa performance com o resultado de 84%, isso quer dizer que a cada 100 faturas que são de fato positivas, é esperado que apenas 84 sejam corretamente identificadas como canceladas.
 
 Recall = TP / (TP + FN) = 1686 / (1686 + 329) ≈ 0.84 ou 84%.
+
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/a187ad0a-a78a-4e07-a345-9fcde561da2b)
+
+A área sob a curva ROC (AUC — Area Under the Curve ou AUROC — Area Under the Receiver Operating Characteristic curve) pode ser utilizada como métrica de qualidade de um modelo, dado que quanto mais próxima a curva estiver do canto superior esquerdo, maior será a área sob a curva e melhor será o modelo. Uma vantagem desta métrica é que ela não é sensível ao desbalanço de classes, como ocorre com a acurácia. Por outro lado, a AUROC não é tão facilmente interpretável.
 
 As demais métricas (accuracy, precision e f1 - score) também obtiveram uma performance satisfatória acima de 80%, portanto o modelo foi considerado eficaz na tarefa de identificação de faturas canceladas. 
 
@@ -101,13 +105,13 @@ Para fazer o deploy do modelo foram utilizadas três ferramentas: o fast API, o 
 
 Todo o processo de deploy foi implementado em x etapas:
 
-1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do código) e depois o carregamento do novo arquivo no repositório do github;
+1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do Analise_Cancelamento_Vendas.ipybn) e depois o carregamento do novo arquivo no repositório do github;
 
-2) A segunda etapa foi a criação do módulo modelo.py onde o objetivo era criar 2 funções (carregar_modelo e fazer_predicao): a primeira função para importar o modelo no formato pickle e a segunda função para prever as classes usando o modelo importado.
+2) A segunda etapa foi a criação do módulo modelo.py onde o objetivo era estruturar 2 funções (carregar_modelo e fazer_predicao): a primeira função para importar o modelo no formato pickle e a segunda função para prever as classes usando o modelo importado.
 
-3) A  terceira etapa consistiu na criação de uma API com a biblioteca fast API. O módulo fast_api.py consiste 
+3) A terceira etapa consistiu na criação de uma API com a biblioteca fast API. O módulo fast_api.py consiste 
 
-4) A  etapa consistiu em tornar a API pública através do seu carregamento no servido Render.
+4) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servido Render.
 
 5) 
 
