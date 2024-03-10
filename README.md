@@ -2,7 +2,7 @@
 
 
 
-# <title>Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)</title>
+# Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)
 
 ### 1.0 Business background 
 
