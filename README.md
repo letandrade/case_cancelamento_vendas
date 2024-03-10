@@ -101,11 +101,9 @@ Para fazer o deploy do modelo foram utilizadas três ferramentas: o fast API, o 
 
 Todo o processo de deploy foi implementado em x etapas:
 
-1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle e depois o carregamento do novo arquivo no repositório do github.
+1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do código) e depois o carregamento do novo arquivo no repositório do github;
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/e5e41881-5615-400f-ac71-af25e854a65f)
-
-2) A segunda etapa consistiu na criação de uma API com o fast API.
+2) A segunda etapa consistiu na criação de uma API com o fast API (Módulo .py do repositório);
 
 3) A terceira etapa consistiu em tornar a API pública através do seu carregamento no servido Render.
 
