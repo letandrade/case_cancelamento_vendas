@@ -50,9 +50,9 @@ Além disso, foi verificado que a sexta-feira e o horário da manhã são os mai
 
 ### 1.2 Objetivo do projeto
 
-Com o objetivo de reduzir os cancelamentos ocorridos no Reino Unido, desenvolvi um modelo de classificação que identifica se uma fatura é propensa ao cancelamento ou não. 
+Com o intuito de mitigar os cancelamentos de transações no Reino Unido, concebi um modelo de propensão a faturas canceladas. Esse modelo, uma vez desenvolvido, é caracterizado como um modelo de aprendizado supervisionado. Sua finalidade é realizar uma tarefa de classificação, determinando se uma determinada fatura possui probabilidade de ser cancelada ou não.
 
-Esse modelo representa a oportunidade de segmentar as faturas em possíveis de ser canceladas ou não, dessa forma, os colaboradores poderiam focar no acompanhamento das faturas que possuem perfil de cancelamento após a efetuação da compra. Uma boa estratégia seria fazer o acompanhamento do processo de compra junto aos clientes que possuem faturas com potencial de ser canceladas. 
+Este modelo oferece uma oportunidade para segmentar as faturas em duas categorias distintas: aquelas com potencial de cancelamento e aquelas sem. Isso possibilita que os colaboradores concentrem seus esforços no acompanhamento das faturas que apresentam um perfil de cancelamento após a compra ter sido efetuada. Uma estratégia eficaz seria realizar um acompanhamento mais próximo do processo de compra com os clientes que têm faturas com potencial de cancelamento, visando a redução dessas ocorrências.
 
 ### 2.0 Como usar o projeto 
 
