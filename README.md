@@ -95,10 +95,11 @@ Recall = TP / (TP + FN) = 1686 / (1686 + 329) ≈ 0.84 ou 84%.
 
 As demais métricas (accuracy, precision e f1 - score) também obtiveram uma performance satisfatória acima de 80%, portanto o modelo foi considerado eficaz na tarefa de identificação de faturas canceladas. 
 
-A área sob a curva ROC (AUC — Area Under the Curve ou AUROC — Area Under the Receiver Operating Characteristic curve)também pode ser utilizada como métrica de qualidade de um modelo, dado que quanto mais próxima a curva estiver do canto superior esquerdo, maior será a área sob a curva e melhor será o modelo. Uma vantagem desta métrica é que ela não é sensível ao desbalanço de classes, como ocorre com a acurácia. Por outro lado, a AUROC não é tão facilmente interpretável.
+A área sob a curva ROC (AUC — Area Under the Curve ou AUROC — Area Under the Receiver Operating Characteristic curve) também pode ser utilizada como métrica de qualidade de um modelo, dado que quanto mais próxima a curva estiver do canto superior esquerdo, maior será a área sob a curva e melhor será o modelo. Uma vantagem desta métrica é que ela não é sensível ao desbalanço de classes, como ocorre com a acurácia. Por outro lado, a AUROC não é tão facilmente interpretável.
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/50a236bf-b4be-48f5-959e-42d86d50fa54)
 
+A curva mostrou uma forte inclinação para o canto superior esquerdo, reforçando a confiança de que o modelo está pronto para ser utilizado.
 
 ### 4.0 Deploy do modelo
 
