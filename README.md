@@ -117,5 +117,10 @@ Todo o processo de deploy foi implementado em x etapas:
 4) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servidor Render. O processo de hospedagem da API no render seguiu o passo a passo disponibilizado no site <https://docs.render.com/deploy-fastapi>. O objetivo foi tornar a API pública para que ela pudesse ser chamada no streamlit.
 
 5) A quinta etapa envolveu a criação de uma página web pública usando o Streamlit. Em resumo, foi desenvolvido um formulário no qual as respostas dos usuários alimentam a API. E a API, cuja função é carregar o modelo e fazer a predição, retorna se a fatura será cancelada ou não.
+   
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/06917c07-64a7-4978-8a6c-a7848952da63)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/fe306594-e092-4be9-a280-9a5d621662ef)
+
+
 
 ### 5.0 Conclusão
