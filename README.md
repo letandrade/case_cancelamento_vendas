@@ -100,7 +100,7 @@ As demais métricas (accuracy, precision e f1 - score) também obtiveram uma per
 
 A área sob a curva ROC (AUC — Area Under the Curve ou AUROC — Area Under the Receiver Operating Characteristic curve) também pode ser utilizada como métrica de qualidade de um modelo, dado que quanto mais próxima a curva estiver do canto superior esquerdo, maior será a área sob a curva e melhor será o modelo. Uma vantagem desta métrica é que ela não é sensível ao desbalanço de classes, como ocorre com a acurácia. Por outro lado, a AUROC não é tão facilmente interpretável.
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/50a236bf-b4be-48f5-959e-42d86d50fa54)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/48c2865c-7e9a-4b28-a737-9488bfd6ea64)
 
 A curva mostrou uma forte inclinação para o canto superior esquerdo, reforçando a confiança de que o modelo está pronto para ser utilizado.
 
@@ -120,8 +120,6 @@ Todo o processo de deploy foi implementado em x etapas:
 
 5) A quinta etapa envolveu a criação de uma página web pública usando o Streamlit. Em resumo, foi desenvolvido um formulário no qual as respostas dos usuários alimentam a API. E a API, cuja função é carregar o modelo e fazer a predição, retorna se a fatura será cancelada ou não. Consulte o código e a descrição detalhada no módulo stream_lit.py.
 
-
-   
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/394c4d73-509f-4747-9721-f1cbdff1a24b)
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/fe306594-e092-4be9-a280-9a5d621662ef)
 
