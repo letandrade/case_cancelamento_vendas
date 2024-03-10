@@ -87,6 +87,12 @@ Obtive os seguintes resultados do modelo:
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/7307a07b-0d19-4ef3-a8b3-507d3ef66885)
 
+Considerando a classe positiva como a ocorrência de faturas canceladas e a classe negativa como faturas não canceladas, esse pressuposto foi estabelecido.
+
+Para avaliar o modelo, considerei como métrica principal o recall pois ela busca responder a seguinte pergunta: de todos os exemplos que são positivos, quantos foram classificados corretamente como positivos? Sendo assim, observei que o modelo obteve uma boa performance com o resultado de 84%, isso quer dizer que a cada 100 faturas que são de fato positivas, é esperado que apenas 84 sejam corretamente identificadas como canceladas.
+
+Recall = TP / (TP + FN) = 1686 / (1686 + 329) ≈ 0.84 ou 84%.
+
 ### 4.0 Deploy do modelo
 
 ### 5.0 Conclusão
