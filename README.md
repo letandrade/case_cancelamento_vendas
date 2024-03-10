@@ -21,7 +21,7 @@ Em uma análise exploratória identiquei que entre 12/01/2009 e 12/09/2011 a emp
 
 Apesar das métricas de cancelamento não serem tão expressivas, quando se olha essas mesmas métricas em um cenário segmentado por País, observa-se um problema local no Reino Unido, a sede da empresa. 
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/db3efca1-4afb-4cde-8435-3432e58dc627)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/2d1943a2-cc64-423b-af74-fd45f4ab3d8b)
 
 Aproximadante 88,30% do valor de venda cancelado pertence ao Reino Unido. 
 
