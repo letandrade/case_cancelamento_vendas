@@ -118,11 +118,18 @@ Todo o processo de deploy foi implementado em x etapas:
 
 4) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servidor Render. O processo de hospedagem da API no render seguiu o passo a passo disponibilizado no site <https://docs.render.com/deploy-fastapi>. O objetivo foi tornar a API pública para que ela pudesse ser chamada no streamlit.
 
-5) A quinta etapa envolveu a criação de uma página web pública usando o Streamlit. Em resumo, foi desenvolvido um formulário no qual as respostas dos usuários alimentam a API. E a API, cuja função é carregar o modelo e fazer a predição, retorna se a fatura será cancelada ou não.
+5) A quinta etapa envolveu a criação de uma página web pública usando o Streamlit. Em resumo, foi desenvolvido um formulário no qual as respostas dos usuários alimentam a API. E a API, cuja função é carregar o modelo e fazer a predição, retorna se a fatura será cancelada ou não. Consulte o código e a descrição detalhada no módulo stream_lit.py.
+
+
    
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/394c4d73-509f-4747-9721-f1cbdff1a24b)
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/fe306594-e092-4be9-a280-9a5d621662ef)
 
+Após o preenchimento das informações da fatura, o colaborador terá a previsão de classificação da fatura, ou seja, se ela é uma fatura propensa a ser cancelada ou não.
 
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/536c255c-43be-44c9-908d-903e5ab25e91)
 
+ Exemplo, caso o formulário seja preenchido com as informações acima, teremos como resposta da API que a fatura será cancelada (Sim).
+ 
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/4470bafb-7cd8-4681-a6b5-5d92a75d919a)
 ### 5.0 Conclusão
