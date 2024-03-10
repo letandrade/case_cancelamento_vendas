@@ -79,6 +79,8 @@ Para reduzir o viés que pode ocorrer quando se utiliza apenas um único conjunt
 
 Para otimizar os hiperparâmetros do modelo (iterations, learning_rate e depth) foi utilizado o Grid Search Cross-Validation. A ideia por trás do GridSearchCV é realizar uma busca exaustiva em uma grade de hiperparâmetros especificados, tentando todas as combinações possíveis desses hiperparâmetros. Para cada combinação de hiperparâmetros, o modelo é treinado utilizando validação cruzada (StratifiedKFold) para estimar seu desempenho. No caso específico, o desempenho foi avaliado utilizando a métrica 'roc_auc'. O GridSearchCV foi utilizado principalmente para encontrar a combinação de hiperparâmetros que otimiza o desempenho do modelo de acordo com a métrica escolhida.
 
+Para avaliar a performance do modelo, utilizei as funções classification_report, confusion_matrix e roc_auc_score importadas da biblioteca sklearn.metrics. O foco foi avaliar as principais métricas de classificação: a accuracy, precision, recall e F1 - score. Obtive os seguintes resultados do modelo:
+
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/17d3d8f9-7d44-439c-a6b6-450a65fb687d)
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/7307a07b-0d19-4ef3-a8b3-507d3ef66885)
