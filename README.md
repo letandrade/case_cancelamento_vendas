@@ -1,9 +1,5 @@
 ![teste](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/b4518aaa-0631-4ca4-8292-3d1063e345f0)
 
-
-
-#              Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)
-
 <h1 align="center">Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)</h1>
 
 ### 1.0 Business background 
