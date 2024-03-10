@@ -25,7 +25,7 @@ Apesar das métricas de cancelamento não serem tão expressivas, quando se olha
 
 Aproximadante 88,30% do valor de venda cancelado pertence ao Reino Unido. 
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/b0728929-bcd6-4e40-86f7-f523336f8738)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/d35670c2-dc7e-433a-984f-e67da917982d)
 
 Aproximadante 74,89% da quantidade de produtos cancelados pertencem ao Reino Unido. 
 
