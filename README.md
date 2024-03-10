@@ -118,7 +118,7 @@ Todo o processo de deploy foi implementado em x etapas:
 
 5) A quinta etapa envolveu a criação de uma página web pública usando o Streamlit. Em resumo, foi desenvolvido um formulário no qual as respostas dos usuários alimentam a API. E a API, cuja função é carregar o modelo e fazer a predição, retorna se a fatura será cancelada ou não.
    
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/06917c07-64a7-4978-8a6c-a7848952da63)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/394c4d73-509f-4747-9721-f1cbdff1a24b)
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/fe306594-e092-4be9-a280-9a5d621662ef)
 
 
