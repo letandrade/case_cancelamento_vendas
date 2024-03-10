@@ -107,7 +107,7 @@ Para fazer o deploy do modelo foram utilizadas três ferramentas: o fast API, o 
 
 Todo o processo de deploy foi implementado em x etapas:
 
-1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do Analise_Cancelamento_Vendas.ipybn) e depois o carregamento do novo arquivo no repositório do github;
+1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do Analise_Cancelamento_Vendas.ipybn) e depois o carregamento do novo arquivo (modelo.pkl) no repositório do github;
 
 2) A segunda etapa foi a criação do módulo modelo.py onde o objetivo era estruturar 2 funções (carregar_modelo e fazer_predicao): a primeira função para importar o modelo no formato pickle e a segunda função para prever as classes usando o modelo importado.
 
