@@ -1,6 +1,6 @@
-# Modelo de propensão a faturas canceladas (Python + FAST API + Render + Streamlit)
-
 ![Assinatura de e-mail de tecnologia profissional moderna azul ](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/f7c07296-0dce-4af4-af49-2051316aabec)
+
+# Modelo de propensão a faturas canceladas (Python + FAST API + Render + Streamlit)
 
 ### 1.0 Business background 
 
