@@ -103,10 +103,12 @@ Todo o processo de deploy foi implementado em x etapas:
 
 1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do código) e depois o carregamento do novo arquivo no repositório do github;
 
-2) A segunda etapa consistiu na criação de uma API com o fast API (Módulo .py do repositório);
+2) A segunda etapa foi a criação do módulo modelo.py onde o objetivo era criar 2 funções (carregar_modelo e fazer_predicao): a primeira função para importar o modelo no formato pickle e a segunda função para prever as classes usando o modelo importado.
 
-3) A terceira etapa consistiu em tornar a API pública através do seu carregamento no servido Render.
+3) A  terceira etapa consistiu na criação de uma API com a biblioteca fast API. O módulo fast_api.py consiste 
 
-4) 
+4) A  etapa consistiu em tornar a API pública através do seu carregamento no servido Render.
+
+5) 
 
 ### 5.0 Conclusão
