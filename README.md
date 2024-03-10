@@ -93,6 +93,8 @@ Para avaliar o modelo, considerei como métrica principal o recall pois ela busc
 
 Recall = TP / (TP + FN) = 1686 / (1686 + 329) ≈ 0.84 ou 84%.
 
+As demais métricas (accuracy, precision e f1 - score) também obtiveram uma performance satisfatória acima de 80%, portanto o modelo foi considerado eficaz na tarefa de identificação de faturas canceladas. 
+
 ### 4.0 Deploy do modelo
 
 ### 5.0 Conclusão
