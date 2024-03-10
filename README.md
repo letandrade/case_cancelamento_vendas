@@ -100,7 +100,7 @@ As demais métricas (accuracy, precision e f1 - score) também obtiveram uma per
 
 A área sob a curva ROC (AUC — Area Under the Curve ou AUROC — Area Under the Receiver Operating Characteristic curve) também pode ser utilizada como métrica de qualidade de um modelo, dado que quanto mais próxima a curva estiver do canto superior esquerdo, maior será a área sob a curva e melhor será o modelo. Uma vantagem desta métrica é que ela não é sensível ao desbalanço de classes, como ocorre com a acurácia. Por outro lado, a AUROC não é tão facilmente interpretável.
 
-![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/48c2865c-7e9a-4b28-a737-9488bfd6ea64)
+![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/e6fc713e-9bfe-4a66-a717-a02ceaa55ce6)
 
 A curva mostrou uma forte inclinação para o canto superior esquerdo, reforçando a confiança de que o modelo está pronto para ser utilizado.
 
