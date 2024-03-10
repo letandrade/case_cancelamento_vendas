@@ -1,4 +1,5 @@
-![Assinatura_de_e-mail_de_tecnologia_profissional_moderna_azul_-transformed (1)](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/50174ae2-f1fc-4656-8dcd-7fe14a2984b7)
+![teste](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/b4518aaa-0631-4ca4-8292-3d1063e345f0)
+
 
 
 # Modelo de propensão a faturas canceladas (Python + FAST API + Render + Streamlit)
