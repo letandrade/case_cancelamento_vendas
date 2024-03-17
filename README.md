@@ -55,6 +55,8 @@ Com o intuito de mitigar os cancelamentos de transações no Reino Unido, conceb
 
 Este modelo oferece uma oportunidade para segmentar as faturas em duas categorias distintas: aquelas com potencial de cancelamento e aquelas sem. Isso possibilita que os colaboradores concentrem seus esforços no acompanhamento das faturas que apresentam um perfil de cancelamento após a compra ter sido efetuada. Uma estratégia eficaz seria realizar um acompanhamento mais próximo do processo de compra com os clientes que têm faturas com potencial de cancelamento, visando a redução dessas ocorrências.
 
+O modelo será integrado em uma aplicação web interativa desenvolvida utilizando a plataforma Streamlit. O propósito é tornar o modelo mais envolvente e acessível para os usuários finais, como vendedores ou outros stakeholders interessados em identificar as faturas com maior probabilidade de serem canceladas ou mantidas.
+
 ### 2.0 Como usar o projeto 
 
 Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
