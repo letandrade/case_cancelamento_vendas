@@ -85,7 +85,7 @@ Para treinar o modelo, o conjunto de dados inicial passou por um pré-processame
 
 Para compor o conjunto de dados foram selecionados 13 códigos de estoque referentes aos itens que representam 50% do valor acumulado de vendas canceladas. A presença desses itens na fatura pode ser um indicativo de cancelamento, sendo assim, a base de dados trouxe a quantidade desses itens na fatura. 
 
-Além disso, é importante mencionar que a base não considera os códigos de estoque 'M' e 'AMAZONFEE' pois tratam-se, respectivamente, de cancelamentos realizados de forma manual pela empresa e cancelamentos realizados pela plataforma de venda da Amazon. O objetivo é entender apenas o comportamento dos cancelamentos ocorridos no próprio site da empresa.
+Além disso, é importante mencionar que a base não considera os códigos de estoque 'M' e 'AMAZONFEE' pois tratam-se, respectivamente, de cancelamentos realizados de forma manual pela empresa e cancelamentos realizados pela plataforma de venda da Amazon. O objetivo é entender apenas o comportamento dos cancelamentos realizados pelos clientes.
 
 Para treinar o modelo foi feita uma separação do conjunto de dados selecionado utilizando o pacote train_test_split. A segmentação é realizada de forma aleatória, isso significa que os dados são divididos em conjuntos de treinamento e teste de maneira aleatória, garantindo que não haja viés na seleção dos exemplos para cada conjunto.
 Além disso, foi considerada a proporção de 70%/30% para divisão, respectivamente, em conjuntos de treinamento e teste.
