@@ -66,6 +66,7 @@ Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
 ➝ Linguagem Python. Neste caso, a análise foi desenvolvida no ambiente de desenvolvimento integrado (IDE) do Jupyter Notebook.
 
 <p>➝ Login no streamlit. Disponível em: https://streamlit.io
+
 Streamlit é uma ferramenta de código aberto em Python usada para criar aplicativos da web interativos para análise de dados e prototipagem rápida. Com o Streamlit, os desenvolvedores podem criar facilmente aplicativos da web com interface de usuário simples e intuitiva, sem a necessidade de conhecimento prévio em desenvolvimento web.
 
 <p>➝ Login no render. Disponível em: https://render.com
