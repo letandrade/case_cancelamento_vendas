@@ -29,7 +29,7 @@ Aproximadante 88,30% do valor de venda cancelado pertence ao Reino Unido.
 
 Aproximadante 74,89% da quantidade de produtos cancelados pertencem ao Reino Unido. 
 
-Sendo assim, resolvi seguir a análise de cancelamentos com foco apenas no Reino Unido e obtive os resultados abaixo:
+Portanto, optei por concentrar a análise de cancelamentos exclusivamente no Reino Unido e os resultados obtidos foram os seguintes:
 
 Total de transações canceladas: 6.730
 <p>Proporção de transações canceladas: 16.75%
