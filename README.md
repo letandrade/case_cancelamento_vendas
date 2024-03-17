@@ -119,17 +119,17 @@ A curva mostrou uma forte inclinação para o canto superior esquerdo, reforçan
 
 Para fazer o deploy do modelo foram utilizadas três ferramentas: o fast API, o render e o streamlit. 
 
-Todo o processo de deploy foi implementado em x etapas:
+Todo o processo de deploy foi implementado em 5 etapas:
 
-1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do Analise_Cancelamento_Vendas.ipybn) e depois o carregamento do novo arquivo (modelo.pkl) no repositório do github;
+4.1) A primeira etapa consistiu na serialização do modelo em um arquivo do formato pickle (Sessão 8.0 do Analise_Cancelamento_Vendas.ipybn) e depois o carregamento do novo arquivo (modelo.pkl) no repositório do github;
 
-2) A segunda etapa foi a criação do módulo modelo.py onde o objetivo era estruturar 2 funções (carregar_modelo e fazer_predicao): a primeira função para importar o modelo no formato pickle e a segunda função para prever as classes usando o modelo importado.
+4.2) A segunda etapa foi a criação do módulo modelo.py onde o objetivo era estruturar 2 funções (carregar_modelo e fazer_predicao): a primeira função para importar o modelo no formato pickle e a segunda função para prever as classes usando o modelo importado.
 
-3) A terceira etapa consistiu na criação de uma API com a biblioteca fast API. Consulte o código e a descrição detalhada no módulo fast_api.py.
+4.3) A terceira etapa consistiu na criação de uma API com a biblioteca fast API. Consulte o código e a descrição detalhada no módulo fast_api.py.
 
-4) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servidor Render. O processo de hospedagem da API no render seguiu o passo a passo disponibilizado no site <https://docs.render.com/deploy-fastapi>. O objetivo foi tornar a API pública para que ela pudesse ser integrada ao streamlit.
+4.4) A quarta etapa consistiu em tornar a API pública através do seu carregamento no servidor Render. O processo de hospedagem da API no render seguiu o passo a passo disponibilizado no site <https://docs.render.com/deploy-fastapi>. O objetivo foi tornar a API pública para que ela pudesse ser integrada ao streamlit.
 
-5) A quinta etapa envolveu a criação de uma aplicação web pública usando o Streamlit. Em resumo, foi desenvolvido um formulário no qual as respostas dos usuários alimentam a API. E a API, cuja função é carregar o modelo e fazer a predição, retorna se a fatura será cancelada ou não. Consulte o código e a descrição detalhada no módulo stream_lit.py.
+4.5) A quinta etapa envolveu a criação de uma aplicação web pública usando o Streamlit. Em resumo, foi desenvolvido um formulário no qual as respostas dos usuários alimentam a API. E a API, cuja função é carregar o modelo e fazer a predição, retorna se a fatura será cancelada ou não. Consulte o código e a descrição detalhada no módulo stream_lit.py. Disponível em: https://casecancelamentovendas-bobjx4pulegbsghod6kx3v.streamlit.app/
 
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/394c4d73-509f-4747-9721-f1cbdff1a24b)
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/fe306594-e092-4be9-a280-9a5d621662ef)
