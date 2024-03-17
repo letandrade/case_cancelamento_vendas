@@ -57,6 +57,8 @@ Este modelo oferece uma oportunidade para segmentar as faturas em duas categoria
 
 O modelo será integrado em uma aplicação web interativa desenvolvida utilizando a plataforma Streamlit. O propósito é tornar o modelo mais envolvente e acessível para os usuários finais, como vendedores ou outros stakeholders interessados em identificar as faturas com maior probabilidade de serem canceladas ou mantidas.
 
+A aplicação web foi construída utilizando uma API desenvolvida com FastAPI e posteriormente hospedada no servidor Render. Para alimentar a aplicação web hospedada no Streamlit, a API pública foi integrada, possibilitando acesso e interação com os dados.
+
 ### 2.0 Como usar o projeto 
 
 Para reproduzir o projeto é necessário ter acesso ao seguintes recursos:
