@@ -10,7 +10,7 @@ Durante anos no passado, o comerciante dependia fortemente de catálogos de mala
 
 O conjunto de dados de transações do cliente mantido pelo comerciante tem 9 variáveis, conforme apresentado na tabela abaixo e contém todas as transações ocorridas entre 12/01/2009 e 12/09/2011. É importante dizer, que esse rol de dados está disponível no repositório da UCI na categoria business com o nome de Online Retail II. Disponível em <https://archive.ics.uci.edu/dataset/352/online+retail>
 
-Tabela de variáveis
+<div align="center"> Tabela de variáveis </div>
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/b9a636ac-8ac8-4fa2-ba88-8cbf6017681f)
 
 ### 1.1 O Problema de negócio 
