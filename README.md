@@ -2,13 +2,15 @@
 
 <h1 align="center">Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)</h1>
 
+<strong>Sumário</strong>
+
 1. [Business Background](#1.0-business-background)
-   - 1.1 [O Problema de Negócio](#1.1-o-problema-de-negócio)
-   - 1.2 [Objetivo do Projeto](#1.2-objetivo-do-projeto)
-2. [Como Usar o Projeto](#2.0-como-usar-o-projeto)
-3. [Desenvolvimento e Resultados](#3.0-desenvolvimento-e-resultados)
-4. [Deploy do Modelo](#4.0-deploy-do-modelo)
-5. [Conclusão](#5.0-conclusão)
+   - 1.1 [O Problema de Negócio](#11-o-problema-de-negócio)
+   - 1.2 [Objetivo do Projeto](#12-objetivo-do-projeto)
+2. [Como Usar o Projeto](#20-como-usar-o-projeto)
+3. [Desenvolvimento e Resultados](#30-desenvolvimento-e-resultados)
+4. [Deploy do Modelo](#40-deploy-do-modelo)
+5. [Conclusão](#50-conclusão)
   
 ### 1.0 Business background 
 
