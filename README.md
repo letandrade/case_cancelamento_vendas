@@ -146,3 +146,7 @@ Após o preenchimento das informações da fatura, o colaborador terá a previs�
 A utilização do CatBoostClassifier para construir um modelo de classificação de propensão a faturas canceladas revelou-se uma abordagem eficaz e promissora. Através da análise das características das faturas, o modelo conseguiu aprender padrões e identificar sinais preditivos de cancelamento com precisão.
 
 Os resultados obtidos demonstram a capacidade do CatBoost em lidar com conjuntos de dados desbalanceados e com características categóricas, proporcionando uma classificação robusta e confiável. A interpretação das variáveis mais importantes destacou aspectos significativos relacionados aos padrões de compra, histórico do cliente e outros fatores relevantes para a previsão de cancelamentos de faturas.
+
+Além disso, a flexibilidade do CatBoost em lidar com dados de diferentes tipos e tamanhos possibilitou a construção de um modelo adaptável, capaz de lidar com novos dados e cenários em um ambiente dinâmico.
+
+Em suma, o modelo de classificação baseado em CatBoost apresentou grande potencial para auxiliar na identificação proativa de faturas suscetíveis a cancelamento, permitindo a implementação de estratégias preventivas, além de mitigar possíveis perdas financeiras. Com uma abordagem contínua de refinamento e ajuste, esse modelo pode se tornar uma ferramenta valiosa para melhorar a eficiência operacional e a satisfação do cliente.
