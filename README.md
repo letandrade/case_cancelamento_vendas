@@ -2,7 +2,7 @@
 
 <h1 align="center">Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)</h1>
 
-<strong>Sumário</strong>
+### Sumário
 
 1. [Business Background](#1.0-business-background)
    - 1.1 [O Problema de Negócio](#11-o-problema-de-negócio)
