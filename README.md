@@ -2,11 +2,13 @@
 
 <h1 align="center">Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)</h1>
 
-- [1.0 Business background](#1.0Businessbackground)
-- [Instalação](#instalação)
-- [Utilização](#utilização)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [1.0 Business background](#1.0businessbackground)
+- - [1.1 O Problema de negócio](#1.1Oproblemadenegócio)
+- - [1.2 Objetivo do projeto](#utilização)
+- [2.0 Como usar o projeto](#contribuição)
+- [3.0 Desenvolvimento e resultados](#licença)
+- [4.0 Deploy do modelo4.0 Deploy do modelo](#licença)
+- [5.0 Conclusão](#licença)
 ### 1.0 Business background 
 
 O varejista on-line considerado nesse case está sediado no Reino Unido e foi criado em 1981 vendendo principalmente presentes exclusivos para todas as ocasiões. Por questões de segurança, a identidade da empresa não foi revelada durante o compartilhamento de seus dados transacionais no repositório da UCI. 
