@@ -2,9 +2,9 @@
 
 <h1 align="center">Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)</h1>
 
-- [1.0 Business background](#[1.0businessbackground](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#10-business-background))
-- - [1.1 O Problema de negócio](#[1.1Oproblemadenegócio](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#11-o-problema-de-neg%C3%B3cio))
-- - [1.2 Objetivo do projeto](#[utilização](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#12-objetivo-do-projeto))
+- [1.0 Business background]([1.0businessbackground](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#10-business-background))
+- - [1.1 O Problema de negócio]([1.1Oproblemadenegócio](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#11-o-problema-de-neg%C3%B3cio))
+- - [1.2 Objetivo do projeto]([utilização](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#12-objetivo-do-projeto))
 - [2.0 Como usar o projeto](#contribuição)
 - [3.0 Desenvolvimento e resultados](#licença)
 - [4.0 Deploy do modelo4.0 Deploy do modelo](#licença)
