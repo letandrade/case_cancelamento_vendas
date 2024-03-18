@@ -142,3 +142,7 @@ Após o preenchimento das informações da fatura, o colaborador terá a previs�
  
 ![image](https://github.com/letandrade/case_cancelamento_vendas/assets/86376728/4470bafb-7cd8-4681-a6b5-5d92a75d919a)
 ### 5.0 Conclusão
+
+A utilização do CatBoostClassifier para construir um modelo de classificação de propensão a faturas canceladas revelou-se uma abordagem eficaz e promissora. Através da análise das características das faturas, o modelo conseguiu aprender padrões e identificar sinais preditivos de cancelamento com precisão.
+
+Os resultados obtidos demonstram a capacidade do CatBoost em lidar com conjuntos de dados desbalanceados e com características categóricas, proporcionando uma classificação robusta e confiável. A interpretação das variáveis mais importantes destacou aspectos significativos relacionados aos padrões de compra, histórico do cliente e outros fatores relevantes para a previsão de cancelamentos de faturas.
