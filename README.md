@@ -2,13 +2,14 @@
 
 <h1 align="center">Modelo de propensão a faturas canceladas <br /> (Python + FAST API + Render + Streamlit)</h1>
 
-- [1.0 Business background]([1.0businessbackground](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#10-business-background))
-- - [1.1 O Problema de negócio]([1.1Oproblemadenegócio](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#11-o-problema-de-neg%C3%B3cio))
-- - [1.2 Objetivo do projeto]([utilização](https://github.com/letandrade/case_cancelamento_vendas/blob/main/README.md#12-objetivo-do-projeto))
-- [2.0 Como usar o projeto](#contribuição)
-- [3.0 Desenvolvimento e resultados](#licença)
-- [4.0 Deploy do modelo4.0 Deploy do modelo](#licença)
-- [5.0 Conclusão](#licença)
+1. [Business Background](#1.0-business-background)
+   - 1.1 [O Problema de Negócio](#1.1-o-problema-de-negócio)
+   - 1.2 [Objetivo do Projeto](#1.2-objetivo-do-projeto)
+2. [Como Usar o Projeto](#2.0-como-usar-o-projeto)
+3. [Desenvolvimento e Resultados](#3.0-desenvolvimento-e-resultados)
+4. [Deploy do Modelo](#4.0-deploy-do-modelo)
+5. [Conclusão](#5.0-conclusão)
+  
 ### 1.0 Business background 
 
 O varejista on-line considerado nesse case está sediado no Reino Unido e foi criado em 1981 vendendo principalmente presentes exclusivos para todas as ocasiões. Por questões de segurança, a identidade da empresa não foi revelada durante o compartilhamento de seus dados transacionais no repositório da UCI. 
